@@ -1,5 +1,4 @@
 
-import styles from '../../styles/Home.module.css'
 import ServicesMap from './servicemap'
 import IndustriesMap from './industriesmap'
 import { useState } from 'react'
