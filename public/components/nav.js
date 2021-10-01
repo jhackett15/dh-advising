@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Nav() {
   return (
     
-      <div className="max-w-md font-sans mx-auto max-w-4xl py-30"">
+      <div className="max-w-md font-sans mx-auto max-w-4xl py-30">
       <nav className="border-b-2">
         <div className="w-full lg:w-auto">
           <div className="text-lg lg:flex-1 flex justify-center pb-8">
