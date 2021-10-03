@@ -4,9 +4,9 @@ import dh from '../public/images/dh.png'
 
 export default function Home() {
     return(
-      <div className="h-screen justify-center py-40">
+      <div className="h-screen justify-center">
 <Layout>
-<div className="max-w-md w-1/2 mx-auto font-sans max-w-4xl mt-20">
+<div className="max-w-md w-1/2 mx-auto font-sans max-w-4xl mt-10">
 <div className="flex justify-center">
 <Image className='justify-center flex' src={dh} alt="Picture of the author" width={250}
       height={250}/>
@@ -17,7 +17,7 @@ export default function Home() {
 <h5 className="text-lg flex justify-center">I help owners build more valuable companies through data-driven, strategic roadmaps that lead to organic & scalable growth. </h5>
 </div>
 <div className="flex justify-center p-4">
-<div className="rounded-full border-black justify-center border-4 border-opacity-100 py-3 px-6">
+<div className="rounded-full border-black justify-center border-4 border-opacity-100 py-1 px-6">
     <button>
     <a>WORK WITH ME</a>
     </button>
